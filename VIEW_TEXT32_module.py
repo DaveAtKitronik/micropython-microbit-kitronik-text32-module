@@ -16,7 +16,6 @@ class KitronikText32:
      #set buf with setup commands, turn on display, clear display and make ready for commands
      buf = bytearray([self.FUNCTION_SET1_CMD, self.DISPLAY_ON, self.CLEAR_DISPLAY, 0x06])
      #set the spi pins and frequency
-     #spi.init(baudrate=250000, bits=8, mode=0, sclk=pin13, mosi=pin15, miso=pin14)
      spi.init(baudrate=250000)
      sleep(1000)
      #send setup to the LCD
