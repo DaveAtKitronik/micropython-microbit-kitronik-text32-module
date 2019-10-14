@@ -1,11 +1,13 @@
+# ALPHA TEST
+
 # micropython-microbit-kitronik-text32
-Example MicroPython example code for the Kitronik RTC ( www.kitronik.co.uk/5650 )
+Test Repo for MicroPython module functionality for Kitronik VIEW32 display ( www.kitronik.co.uk/5650 )
 
 ## Operation
 
-This package contains a function to display a string. If the string is more than 32 charectors the string will scroll on the display:
+This package contains a function to display a string. If the string is more than 32 characters the string will scroll on the display:
 ```blocks
-text32.showString(text32, 'Hello World! :) I am the :VIEW Text32')
+text32.showString(text32, StringToDisplay)
 ```
 
 This package contains a function to clear the display
